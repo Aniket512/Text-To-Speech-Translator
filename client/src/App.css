@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Poppins';
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px 60px;
+  font-size: 16px;
+  background-color: #632DE9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.audio-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.download-container {
+  margin-top: 30px;
+  width: 180px;
+  text-align: center;
+}
+
+.download-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #632DE9;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
